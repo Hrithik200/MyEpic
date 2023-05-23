@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+myepic = "FPggYPgeyCUT6p56CZuQDzioWudhSquogoUe5bAQwVoa"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/macmini/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepic.js"
